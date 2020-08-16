@@ -1,4 +1,4 @@
-package com.prepared.demo.lamdaExpression;
+package com.geniu.lamdaExpression;
 
 import java.util.Comparator;
 
