@@ -28,4 +28,32 @@ public class SafeWM {
     lower.set(v);
   }
   // 省略其他业务代码
+
+  private static class MyThread1 extends Thread{
+    @Override
+    public void run() {
+      SafeWM safeWM = new SafeWM();
+      safeWM.setLower(7);
+    }
+  }
+
+  private static class MyThread2 extends Thread{
+
+    @Override
+    public void run() {
+      SafeWM safeWM = new SafeWM();
+      safeWM.setUpper(5);
+    }
+  }
+
+  public static void main(String[] args) throws Exception {
+    Thread thread1 = new MyThread1();
+    thread1.setName("线程1-name");
+    Thread thread2 = new MyThread1();
+
+    thread1.run();
+    thread2.run();
+
+    System.out.println();
+  }
 }
