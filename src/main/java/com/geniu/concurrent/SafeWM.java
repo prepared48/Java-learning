@@ -4,56 +4,56 @@ import java.util.concurrent.atomic.AtomicLong;
 
 public class SafeWM {
 
-  // 库存上限
-  private final AtomicLong upper = new AtomicLong(0);
+	// 库存上限
+	private final AtomicLong upper = new AtomicLong(0);
 
-  // 库存下限
-  private final AtomicLong lower = new AtomicLong(0);
+	// 库存下限
+	private final AtomicLong lower = new AtomicLong(0);
 
-  // 设置库存上限
-  void setUpper(long v){
-    // 检查参数合法性
-    if (v < lower.get()) {
-      throw new IllegalArgumentException();
-    }
-    upper.set(v);
-  }
+	public static void main(String[] args) throws Exception {
+		Thread thread1 = new MyThread1();
+		thread1.setName("线程1-name");
+		Thread thread2 = new MyThread1();
 
-  // 设置库存下限
-  void setLower(long v){
-    // 检查参数合法性
-    if (v > upper.get()) {
-      throw new IllegalArgumentException();
-    }
-    lower.set(v);
-  }
-  // 省略其他业务代码
+		thread1.run();
+		thread2.run();
 
-  private static class MyThread1 extends Thread{
-    @Override
-    public void run() {
-      SafeWM safeWM = new SafeWM();
-      safeWM.setLower(7);
-    }
-  }
+		System.out.println();
+	}
 
-  private static class MyThread2 extends Thread{
+	// 设置库存上限
+	void setUpper(long v) {
+		// 检查参数合法性
+		if (v < lower.get()) {
+			throw new IllegalArgumentException();
+		}
+		upper.set(v);
+	}
+	// 省略其他业务代码
 
-    @Override
-    public void run() {
-      SafeWM safeWM = new SafeWM();
-      safeWM.setUpper(5);
-    }
-  }
+	// 设置库存下限
+	void setLower(long v) {
+		// 检查参数合法性
+		if (v > upper.get()) {
+			throw new IllegalArgumentException();
+		}
+		lower.set(v);
+	}
 
-  public static void main(String[] args) throws Exception {
-    Thread thread1 = new MyThread1();
-    thread1.setName("线程1-name");
-    Thread thread2 = new MyThread1();
+	private static class MyThread1 extends Thread {
+		@Override
+		public void run() {
+			SafeWM safeWM = new SafeWM();
+			safeWM.setLower(7);
+		}
+	}
 
-    thread1.run();
-    thread2.run();
+	private static class MyThread2 extends Thread {
 
-    System.out.println();
-  }
+		@Override
+		public void run() {
+			SafeWM safeWM = new SafeWM();
+			safeWM.setUpper(5);
+		}
+	}
 }

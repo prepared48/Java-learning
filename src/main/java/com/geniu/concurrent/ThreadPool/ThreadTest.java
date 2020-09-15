@@ -5,13 +5,13 @@ package com.geniu.concurrent.ThreadPool;
  */
 public class ThreadTest implements Runnable {
 
-    @Override
-    public void run() {
-        try {
-            // 让线程不会马上结束
-            Thread.sleep(300);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
+	@Override
+	public void run() {
+		try {
+			// 让线程不会马上结束
+			Thread.sleep(300);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }

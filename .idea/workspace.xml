@@ -2,53 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="java8 feature learning">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sources/TestConcurrentHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestGC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/Result.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/SafeWM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/SafeWM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prepared/demo/JavaLearningApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prepared/demo/lamdaExpression/LambdaExpressionTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/prepared/demo/lamdaExpression/LambdaExpressionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/prepared/demo/JavaLearningApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T1Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T1Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T2Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T2Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TeaFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TeaFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestCompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestCompletableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestStopLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestStopLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestTeaCompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestTeaCompletableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/TestThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/TestThreadLocal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/OOMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/OOMBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestJVM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestOOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestStackOverFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestStackOverFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/lamdaExpression/LambdaExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/lamdaExpression/LambdaExpressionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/sources/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sources/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/sources/TestConcurrentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sources/TestConcurrentHashMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="E:/workspace-mars/security-microservice" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -113,23 +91,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SafeWM">
+  <component name="RunManager" selected="Application.TestGC">
     <configuration name="LambdaExpressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.prepared.demo.lamdaExpression.LambdaExpressionTest" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.prepared.demo.lamdaExpression.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LamdaExpresssionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.prepared.demo.lamdaExpression.LamdaExpresssionTest" />
       <module name="java-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -149,6 +113,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geniu.concurrent.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.jvm.TestGC" />
+      <module name="java-learning" />
+      <option name="VM_PARAMETERS" value="-Xmx10m -Xms10m -Xmn20m -Xss20m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geniu.jvm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,20 +192,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LamdaExpresssionTest" />
       <item itemvalue="Application.LambdaExpressionTest" />
       <item itemvalue="Application.TestStopSynchronized" />
       <item itemvalue="Application.TestStopLock" />
       <item itemvalue="Application.SafeWM" />
+      <item itemvalue="Application.TestGC" />
       <item itemvalue="Spring Boot.JavaLearningApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestGC" />
         <item itemvalue="Application.SafeWM" />
         <item itemvalue="Application.TestStopLock" />
         <item itemvalue="Application.TestStopSynchronized" />
         <item itemvalue="Application.LambdaExpressionTest" />
-        <item itemvalue="Application.LamdaExpresssionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +225,7 @@
       <workItem from="1597540834971" duration="4758000" />
       <workItem from="1597627387481" duration="92000" />
       <workItem from="1598483524802" duration="1293000" />
-      <workItem from="1600125261823" duration="3185000" />
+      <workItem from="1600125261823" duration="8290000" />
     </task>
     <task id="LOCAL-00001" summary="java8 feature learning">
       <created>1559024229002</created>
@@ -270,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597584150531</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="测试ConCurrentHashMap代码">
+      <created>1600131298820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600131298820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +278,8 @@
     <MESSAGE value="java8 feature learning" />
     <MESSAGE value="增加多线程、jvm、源码学习例子" />
     <MESSAGE value="增加多线程代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加多线程代码" />
+    <MESSAGE value="测试ConCurrentHashMap代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试ConCurrentHashMap代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

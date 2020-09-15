@@ -7,15 +7,15 @@ import java.util.concurrent.CompletableFuture;
  */
 public class TestCompletableFutureDemo {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        CompletableFuture<String> f0 = CompletableFuture.supplyAsync(
-                () -> "Hello World")      //①
-                .thenApply(s -> s + " QQ")  //②
-                .thenApply(String::toUpperCase);//③
+		CompletableFuture<String> f0 = CompletableFuture.supplyAsync(
+				() -> "Hello World")      //①
+				.thenApply(s -> s + " QQ")  //②
+				.thenApply(String::toUpperCase);//③
 
-        System.out.println(f0.join());
-        //输出结果
-        //HELLO WORLD QQ
-    }
+		System.out.println(f0.join());
+		//输出结果
+		//HELLO WORLD QQ
+	}
 }

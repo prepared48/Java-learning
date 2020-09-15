@@ -4,14 +4,13 @@ import java.util.List;
 
 public class TestJVM {
 
+    ThreadLocal threadLocal = new ThreadLocal();
+
     public static void main(String[] args) {
 //        TestJVM testJVM = new TestJVM();
 //        testJVM.test1(new ArrayList<>());
         System.out.println();
     }
-
-
-    ThreadLocal threadLocal = new ThreadLocal();
 
     public List<String> test1(List<String> stringList) {
 
