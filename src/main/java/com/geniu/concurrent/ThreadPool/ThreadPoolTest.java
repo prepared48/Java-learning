@@ -13,7 +13,7 @@ public class ThreadPoolTest {
 
 	public static void main(String[] args) {
 		LinkedBlockingQueue<Runnable> queue = new LinkedBlockingQueue<Runnable>(5);
-		// 创建线程池 5 10 60s
+		// 创建线程池 核心5 最大10 队列5 等待时间60s 拒绝策略，默认：报错处理
 		ThreadPoolExecutor threadPool = new ThreadPoolExecutor(5, 10, 60,
 				TimeUnit.SECONDS, queue);
 		for (int i = 1; i <= 16; i++) {

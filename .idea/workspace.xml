@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="java8 feature learning">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestGC.java" afterDir="false" />
+    <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="代码格式化">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/pattern/DynamicProxyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ForkJoinTestDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/SafeWM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/SafeWM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T1Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T1Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T2Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/T2Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TeaFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TeaFutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestCompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestCompletableFutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestStopLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestStopLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestTeaCompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/TestTeaCompletableFutureDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/TestThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/TestThreadLocal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/OOMBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/OOMBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestJVM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestOOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestOOM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestStackOverFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/jvm/TestStackOverFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/lamdaExpression/LambdaExpressionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/lamdaExpression/LambdaExpressionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/sources/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sources/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/sources/TestConcurrentHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sources/TestConcurrentHashMap.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +70,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestGC">
-    <configuration name="LambdaExpressionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.prepared.demo.lamdaExpression.LambdaExpressionTest" />
+  <component name="RunManager" selected="Application.DynamicProxyDemo">
+    <configuration name="DynamicProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.pattern.DynamicProxyDemo" />
       <module name="java-learning" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.prepared.demo.lamdaExpression.*" />
+          <option name="PATTERN" value="com.geniu.pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,20 +171,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LambdaExpressionTest" />
       <item itemvalue="Application.TestStopSynchronized" />
       <item itemvalue="Application.TestStopLock" />
       <item itemvalue="Application.SafeWM" />
       <item itemvalue="Application.TestGC" />
       <item itemvalue="Spring Boot.JavaLearningApplication" />
+      <item itemvalue="Application.DynamicProxyDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicProxyDemo" />
         <item itemvalue="Application.TestGC" />
         <item itemvalue="Application.SafeWM" />
         <item itemvalue="Application.TestStopLock" />
         <item itemvalue="Application.TestStopSynchronized" />
-        <item itemvalue="Application.LambdaExpressionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +204,7 @@
       <workItem from="1597540834971" duration="4758000" />
       <workItem from="1597627387481" duration="92000" />
       <workItem from="1598483524802" duration="1293000" />
-      <workItem from="1600125261823" duration="8290000" />
+      <workItem from="1600125261823" duration="16459000" />
     </task>
     <task id="LOCAL-00001" summary="java8 feature learning">
       <created>1559024229002</created>
@@ -255,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600131298820</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="代码格式化">
+      <created>1600212195903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600212195903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,18 +265,10 @@
     <MESSAGE value="增加多线程、jvm、源码学习例子" />
     <MESSAGE value="增加多线程代码" />
     <MESSAGE value="测试ConCurrentHashMap代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试ConCurrentHashMap代码" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
-          <line>1010</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="代码格式化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码格式化" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="masterDetails">
     <states>
