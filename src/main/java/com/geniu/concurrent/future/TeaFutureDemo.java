@@ -1,4 +1,4 @@
-package com.geniu.concurrent;
+package com.geniu.concurrent.future;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
@@ -10,13 +10,10 @@ import java.util.concurrent.FutureTask;
 public class TeaFutureDemo {
 
 	public static void main(String[] args) {
-
 		// 创建任务T2的FutureTask
 		FutureTask<String> ft2 = new FutureTask<>(new T2Task());
-
 		// 创建任务T1的FutureTask
 		FutureTask<String> ft1 = new FutureTask<>(new T1Task(ft2));
-
 		// 线程T1执行任务ft1
 		Thread T1 = new Thread(ft1);
 		T1.start();

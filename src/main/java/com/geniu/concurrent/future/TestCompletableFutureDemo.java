@@ -1,4 +1,4 @@
-package com.geniu.concurrent;
+package com.geniu.concurrent.future;
 
 import java.util.concurrent.CompletableFuture;
 
