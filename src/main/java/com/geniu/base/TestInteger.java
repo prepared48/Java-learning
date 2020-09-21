@@ -1,25 +1,25 @@
 package com.geniu.base;
 
 /**
- * Long 类型的比较
- * 如果Long的值在[-127,128]之间，用“==”判断是否相等是没问题的，如果不在这个区间，是不能用“==”的。
+ * Integer 类型的比较
  *
  * @Author: zhongshibo
  * @Date: 2020/9/17 19:44
  */
-public class TestLong {
+public class TestInteger {
 
 	public static void main(String[] args) {
+		test1();
 //		test2Error();
 //		test2Right();
 //		test2Right2();
-		testlong();
+//		testlong();
 	}
 
 	public static void test1() {
-		Long l1 = 23L;
-		Long l2 = 23L;
-		System.out.println(l1 == l2);
+		Integer l1 = 21233;
+		Integer l2 = 21233;
+		System.out.println(l1.intValue() == l2.intValue());
 	}
 
 	/**
