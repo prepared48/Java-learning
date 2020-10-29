@@ -1,10 +1,12 @@
-package com.geniu.jvm;
+package com.geniu.base;
 
 /**
+ * 测试自动装箱
+ *
  * @Author: zhongshibo
- * @Date: 2020/9/15 17:39
+ * @Date: 2020/10/29 08:54
  */
-public class TestGC {
+public class TestPack1 {
 
 	public static void main(String[] args) {
 		Integer a = 1;

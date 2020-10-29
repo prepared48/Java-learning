@@ -16,6 +16,12 @@ public class TestLong {
 		testlong();
 	}
 
+	public static void testDecimal() {
+		Long l1 = 23L;
+		Long l2 = 23L;
+		System.out.println(l1 == l2);
+	}
+
 	public static void test1() {
 		Long l1 = 23L;
 		Long l2 = 23L;
