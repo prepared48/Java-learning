@@ -1,6 +1,7 @@
 package com.geniu.collection;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,5 +20,7 @@ public class TestSubList {
 		// 报错  java.util.ArrayList$SubList cannot be cast to java.util.ArrayList
 		LinkedList subList = (LinkedList) names.subList(0, 1);
 		System.out.println(subList);
+
+		List<Long> ids = new ArrayList<Long>(Arrays.asList(111L, 222L));
 	}
 }
