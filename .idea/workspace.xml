@@ -1,20 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="增加动态代理demo">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_29_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/sort/QuickSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_mock_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/file/电子签名-e签宝.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/file/TestMultipartFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/base/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,66 +98,64 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\mvnRespo" />
-        <option name="userSettingsFile" value="D:\program\maven\apache-maven-3.5.4\conf\settings.xml" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../programs/maven_repo" />
+        <option name="mavenHome" value="$USER_HOME$/.m2/wrapper/dists/apache-maven-3.6.0-bin/2dakv70gp803gtm5ve1ufmvttn/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../programs/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectId" id="1fQbEf4V1Ja01VgzN98DapHtg7o" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.geniu" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/file" />
+      <recent name="E:\workspace-prepared\Java-learning\src\main\java\com\geniu\" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geniu.string" />
       <recent name="com.geniu.base.clone" />
       <recent name="com.geniu.base" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace-prepared\Java-learning\src\main\java\com\geniu\" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.geniu.concurrent.ThreadPool" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.sort.QuickSort" />
-      <module name="java-learning" />
+  <component name="RunManager" selected="Application.TestMultipartFile">
+    <configuration name="TestMultipartFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.file.TestMultipartFile" />
+      <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.sort.*" />
+          <option name="PATTERN" value="com.geniu.file.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,23 +163,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.sort.QuickSort2" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geniu.sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.Test" />
-      <module name="java-learning" />
+    <configuration name="TestRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestRandom" />
+      <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +177,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.concurrent.CountDownLatch.TestCountDownLatch" />
-      <module name="java-learning" />
+    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.collection.TestStream" />
+      <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.concurrent.CountDownLatch.*" />
+          <option name="PATTERN" value="com.geniu.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,41 +191,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestInteger" />
-      <module name="java-learning" />
+    <configuration name="TestTernaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestTernaryOperator" />
+      <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.geniu.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestLong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestLong" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geniu.base.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestShallowCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.clone.TestShallowCopy" />
-      <module name="java-learning" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geniu.base.clone.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,9 +211,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="switchDemoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.string.switchDemoString" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geniu.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaLearningApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.geniu.JavaLearningApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,23 +267,25 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestLong" />
+      <item itemvalue="Application.TestTernaryOperator" />
+      <item itemvalue="Application.TestStream" />
+      <item itemvalue="Application.switchDemoString" />
+      <item itemvalue="Application.TestRandom" />
       <item itemvalue="Spring Boot.JavaLearningApplication" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.TestInteger" />
-      <item itemvalue="Application.TestShallowCopy" />
-      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Spring Boot.JavaLearningApplication (1)" />
+      <item itemvalue="Application.TestMultipartFile" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.QuickSort2" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestShallowCopy" />
-        <item itemvalue="Application.TestInteger" />
+        <item itemvalue="Application.TestMultipartFile" />
+        <item itemvalue="Application.TestRandom" />
+        <item itemvalue="Application.switchDemoString" />
+        <item itemvalue="Application.TestStream" />
+        <item itemvalue="Application.TestTernaryOperator" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -255,6 +309,18 @@
       <workItem from="1600604909385" duration="636000" />
       <workItem from="1600652565761" duration="669000" />
       <workItem from="1600695659252" duration="6877000" />
+      <workItem from="1603334619300" duration="820000" />
+      <workItem from="1603932755197" duration="2528000" />
+      <workItem from="1603940984812" duration="3608000" />
+      <workItem from="1604020686800" duration="115000" />
+      <workItem from="1604374037542" duration="10404000" />
+      <workItem from="1604448650368" duration="2451000" />
+      <workItem from="1604469404272" duration="1944000" />
+      <workItem from="1604542025609" duration="8527000" />
+      <workItem from="1605160164553" duration="1930000" />
+      <workItem from="1605190023640" duration="2912000" />
+      <workItem from="1605230811628" duration="338000" />
+      <workItem from="1605681765322" duration="1447000" />
     </task>
     <task id="LOCAL-00001" summary="java8 feature learning">
       <created>1559024229002</created>
@@ -333,24 +399,109 @@
       <option name="project" value="LOCAL" />
       <updated>1600730895975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加测试：自动拆装箱，以及拆装箱的缓存问题">
+      <created>1603934782605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1603934782605</updated>
+    </task>
+    <task id="LOCAL-00013" summary="添加slf4j测试demo">
+      <created>1603941172658</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1603941172658</updated>
+    </task>
+    <task id="LOCAL-00014" summary="增加substring测试，jdk1.6和1.7不一样">
+      <created>1603942334173</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1603942334173</updated>
+    </task>
+    <task id="LOCAL-00015" summary="拼接字符串几种方式的比较">
+      <created>1604382075014</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604382075015</updated>
+    </task>
+    <task id="LOCAL-00016" summary="增加switch、单例、volatile测试">
+      <created>1604385855769</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604385855769</updated>
+    </task>
+    <task id="LOCAL-00017" summary="1、线程池使用guava&#10;2、subList不可强转成ArrayList、LinkedList等&#10;3、Collector的stream处理注意事项">
+      <created>1604558394905</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604558394905</updated>
+    </task>
+    <task id="LOCAL-00018" summary="switch 参数是 String 的时候，需要判空">
+      <created>1604565448689</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604565448689</updated>
+    </task>
+    <task id="LOCAL-00019" summary="1、LinkedHashMap实现LRU（未完成）&#10;2、随机生成范围内的小数">
+      <created>1605193961111</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1605193961111</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="1">
           <value>
             <State>
-              <option name="COLUMN_ORDER" />
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java8 feature learning" />
@@ -364,9 +515,102 @@
     <MESSAGE value="提交CountDownLatch测试列子" />
     <MESSAGE value="面试题：两个Long类型的比较" />
     <MESSAGE value="测试深拷贝、浅拷贝" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试深拷贝、浅拷贝" />
+    <MESSAGE value="添加测试：自动拆装箱，以及拆装箱的缓存问题" />
+    <MESSAGE value="添加slf4j测试demo" />
+    <MESSAGE value="增加substring测试，jdk1.6和1.7不一样" />
+    <MESSAGE value="拼接字符串几种方式的比较" />
+    <MESSAGE value="增加switch、单例、volatile测试" />
+    <MESSAGE value="1、线程池使用guava&#10;2、subList不可强转成ArrayList、LinkedList等&#10;3、Collector的stream处理注意事项" />
+    <MESSAGE value="switch 参数是 String 的时候，需要判空" />
+    <MESSAGE value="1、LinkedHashMap实现LRU（未完成）&#10;2、随机生成范围内的小数" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、LinkedHashMap实现LRU（未完成）&#10;2、随机生成范围内的小数" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1604544796111">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604544796111" />
+    <state x="144" y="100" width="1252" height="854" key="CommitChangelistDialog2" timestamp="1605193960842">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="1632" y="121" width="1252" height="854" key="CommitChangelistDialog2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604565448473" />
+    <state x="144" y="100" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1605193960842" />
+    <state x="1682" y="206" key="DiffContextDialog" timestamp="1604558278900">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1682" y="206" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604558278900" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1605194456584">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557954" />
+    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1605194456584" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1605194456583">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
+    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1605194456583" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1605194456583">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
+    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1605194456583" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1605194456584">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
+    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1605194456584" />
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1604400981532">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981532" />
+    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1604400981530">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981530" />
+    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1604400981529">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981529" />
+    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1604400981530">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="358" key="GridCell.Tab.1.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981530" />
+    <state x="2010" y="370" key="NewModule_or_Project.wizard" timestamp="1603933038283">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2010" y="370" key="NewModule_or_Project.wizard/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603933038283" />
+    <state x="1996" y="258" key="RollbackChangesDialog" timestamp="1604558280024">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1996" y="258" key="RollbackChangesDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604558280024" />
+    <state x="1828" y="243" width="1283" height="722" key="SettingsEditor" timestamp="1603933290649">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1828" y="243" width="1283" height="722" key="SettingsEditor/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603933290649" />
+    <state x="420" y="233" key="Vcs.Push.Dialog.v2" timestamp="1605194013613">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604565454387" />
+    <state x="420" y="233" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605194013613" />
+    <state x="2227" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603950190161">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2227" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603950190161" />
+    <state x="1930" y="294" width="939" height="595" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1604561758094">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1930" y="294" width="939" height="595" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604561758094" />
+    <state x="1915" y="194" width="587" height="476" key="find.popup" timestamp="1604563905561">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1915" y="194" width="587" height="476" key="find.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604563905561" />
+    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1605682099089">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605682099089" />
+    <state x="469" y="207" width="503" height="530" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1605193902011" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -381,6 +625,10 @@
           <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -389,21 +637,5 @@
         <watch expression="this.getBeanClassLoader()" language="JAVA" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
