@@ -14,5 +14,8 @@ public class AutoJson {
 
     public static void main(String[] args) {
         String jsonString = "{\"name\": \"ZHANGSAN\", \"age\": 17}";
+        if (jsonString == null) {
+
+        }
     }
 }
