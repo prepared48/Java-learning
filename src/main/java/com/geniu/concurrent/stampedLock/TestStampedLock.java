@@ -42,6 +42,7 @@ public class TestStampedLock {
         //会导致线程T2所在CPU飙升
         T2.interrupt();
         try {
+            // 等待T2结束
             T2.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
