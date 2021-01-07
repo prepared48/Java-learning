@@ -2,6 +2,12 @@ package com.geniu.concurrent.threadlocal;
 
 import java.text.SimpleDateFormat;
 
+/**
+ * 测试使用线程安全的SimpleDateFormat和不安全的SimpleDateFormat 转换日期的例子
+ *
+ * @author shibo_zhong
+ * @date 2021/01/07
+ */
 public class SimpleDateFormatTest {
 
     public static void main(String[] args) {
