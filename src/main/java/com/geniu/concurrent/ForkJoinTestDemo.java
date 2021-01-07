@@ -22,13 +22,10 @@ public class ForkJoinTestDemo {
 
 	//递归任务
 	static class Fibonacci extends RecursiveTask<Integer> {
-
 		final int n;
-
 		Fibonacci(int n) {
 			this.n = n;
 		}
-
 		@Override
 		protected Integer compute() {
 			if (n <= 1) {
