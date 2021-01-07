@@ -60,6 +60,14 @@ public class TimeUtil {
         return getDateFormat(pattern).format(date);
     }
 
+
+    /**
+     * 将字符串转成时间格式
+     *
+     * @param date    要转换的时间字符串
+     * @param pattern 要转换的时间格式
+     * @return
+     */
     public static Date parse(String date, String pattern) {
         if (date == null || pattern == null) {
             return null;
