@@ -76,7 +76,6 @@ public class TestCompletableFuture {
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-
     }
 
 }
