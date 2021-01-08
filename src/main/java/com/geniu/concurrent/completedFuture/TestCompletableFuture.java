@@ -20,9 +20,11 @@ import static java.lang.Thread.sleep;
 public class TestCompletableFuture {
 
     public static void main(String[] args) {
+        System.out.println("启动线程数：" + (((Runtime.getRuntime().availableProcessors() - 1) > 1)
+                ? (Runtime.getRuntime().availableProcessors() - 1) : "实际任务数"));
         System.out.println("start： " + new Date());
         CompletableFuture<Integer> task4 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("任务4");
+            System.out.println("任务4, 线程名字" + Thread.currentThread().getName());
             try {
                 sleep(4000);
             } catch (InterruptedException e) {
@@ -31,7 +33,7 @@ public class TestCompletableFuture {
             return 3;
         });
         CompletableFuture<List<Integer>> task1 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("任务1");
+            System.out.println("任务1, 线程名字" + Thread.currentThread().getName());
             try {
                 sleep(1000);
             } catch (InterruptedException e) {
@@ -40,18 +42,18 @@ public class TestCompletableFuture {
             return new ArrayList<>();
         });
         CompletableFuture<Integer> task2 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("任务2");
+            System.out.println("任务2, 线程名字" + Thread.currentThread().getName());
             try {
-                sleep(3000);
+                sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
             return 2;
         });
         CompletableFuture<Integer> task3 = CompletableFuture.supplyAsync(() -> {
-            System.out.println("任务3");
+            System.out.println("任务3, 线程名字" + Thread.currentThread().getName());
             try {
-                sleep(2000);
+                sleep(3000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

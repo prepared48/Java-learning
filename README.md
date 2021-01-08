@@ -49,6 +49,27 @@ on the way
 默认情况下 CompletableFuture 会使用公共的 ForkJoinPool 线程池，这个线程池默认创建的线程数是 CPU 的核数
 （也可以通过 JVM option:-Djava.util.concurrent.ForkJoinPool.common.parallelism 来设置 ForkJoinPool 线程池的线程数）。
 
+但是也不一定就使用ForkJoinPool，要看（cpu的核数-1）是否大于1，如果大于1，使用过ForkJoinPool，否则，创建普通线程执行。
+
+
+```
+    // 是否使用 useCommonPool，如果（cpu的核数-1）大于1，使用过ForkJoinPool，否则，创建普通线程执行。
+    private static final boolean useCommonPool =
+            (ForkJoinPool.getCommonPoolParallelism() > 1);
+
+    /**
+     * Default executor -- ForkJoinPool.commonPool() unless it cannot
+     * support parallelism.
+     */
+    private static final Executor asyncPool = useCommonPool ?
+        ForkJoinPool.commonPool() : new ThreadPerTaskExecutor();
+    
+    /** Fallback if ForkJoinPool.commonPool() cannot support parallelism */
+    static final class ThreadPerTaskExecutor implements Executor {
+        public void execute(Runnable r) { new Thread(r).start(); }
+    }
+```
+
 CompletableFuture 可以应用在异步编程场景中。
 
 比如经典的泡茶：
