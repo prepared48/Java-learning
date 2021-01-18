@@ -9,8 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="增加动态代理demo">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__avalon_framework_avalon_framework_4_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_3_4.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
@@ -19,21 +25,29 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_12.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__logkit_logkit_1_0_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_mock_2_0_8.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file/电子签名-e签宝.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/file/TestMultipartFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/collection/TestList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/geniu/collection/TestMapIterator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
@@ -73,11 +87,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +99,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -120,10 +132,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/file" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -132,30 +145,32 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.geniu.concurrent.ThreadPool" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.geniu" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.geniu.concurrent.threadlocal" />
+      <recent name="com.geniu.concurrent.ThreadPool" />
+      <recent name="com.geniu.string" />
+      <recent name="com.geniu.base.clone" />
+      <recent name="com.geniu.base" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/file" />
       <recent name="E:\workspace-prepared\Java-learning\src\main\java\com\geniu\" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.geniu.string" />
-      <recent name="com.geniu.base.clone" />
-      <recent name="com.geniu.base" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.geniu.concurrent.ThreadPool" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.TestMultipartFile">
-    <configuration name="TestMultipartFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.file.TestMultipartFile" />
+  <component name="RunManager" selected="Application.TestMapIterator">
+    <configuration name="RandomIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.IdGenerator.RandomIdGenerator" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.file.*" />
+          <option name="PATTERN" value="com.geniu.IdGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,13 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestRandom" />
+    <configuration name="TestCompletableFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.concurrent.completedFuture.TestCompletableFuture" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.base.*" />
+          <option name="PATTERN" value="com.geniu.concurrent.completedFuture.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +192,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.collection.TestStream" />
+    <configuration name="TestList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.collection.TestList" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -191,13 +206,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTernaryOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.base.TestTernaryOperator" />
+    <configuration name="TestMapIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.collection.TestMapIterator" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.base.*" />
+          <option name="PATTERN" value="com.geniu.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.rateLimiter.TestRateLimiter" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geniu.rateLimiter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -207,20 +236,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="switchDemoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.string.switchDemoString" />
-      <module name="demo" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geniu.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -267,21 +282,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestTernaryOperator" />
-      <item itemvalue="Application.TestStream" />
-      <item itemvalue="Application.switchDemoString" />
-      <item itemvalue="Application.TestRandom" />
+      <item itemvalue="Application.TestCompletableFuture" />
+      <item itemvalue="Application.TestRateLimiter" />
+      <item itemvalue="Application.RandomIdGenerator" />
       <item itemvalue="Spring Boot.JavaLearningApplication" />
       <item itemvalue="Spring Boot.JavaLearningApplication (1)" />
-      <item itemvalue="Application.TestMultipartFile" />
+      <item itemvalue="Application.TestList" />
+      <item itemvalue="Application.TestMapIterator" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMultipartFile" />
-        <item itemvalue="Application.TestRandom" />
-        <item itemvalue="Application.switchDemoString" />
-        <item itemvalue="Application.TestStream" />
-        <item itemvalue="Application.TestTernaryOperator" />
+        <item itemvalue="Application.TestMapIterator" />
+        <item itemvalue="Application.TestList" />
+        <item itemvalue="Application.RandomIdGenerator" />
+        <item itemvalue="Application.TestRateLimiter" />
+        <item itemvalue="Application.TestCompletableFuture" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +335,31 @@
       <workItem from="1605160164553" duration="1930000" />
       <workItem from="1605190023640" duration="2912000" />
       <workItem from="1605230811628" duration="338000" />
-      <workItem from="1605681765322" duration="1447000" />
+      <workItem from="1605681765322" duration="1615000" />
+      <workItem from="1605698500967" duration="715000" />
+      <workItem from="1605746093749" duration="248000" />
+      <workItem from="1605783599396" duration="625000" />
+      <workItem from="1605830679911" duration="565000" />
+      <workItem from="1606957956553" duration="591000" />
+      <workItem from="1606994749718" duration="2670000" />
+      <workItem from="1607045436892" duration="1509000" />
+      <workItem from="1607252837398" duration="967000" />
+      <workItem from="1607305431169" duration="609000" />
+      <workItem from="1607307981133" duration="17651000" />
+      <workItem from="1607388010587" duration="598000" />
+      <workItem from="1607567557305" duration="3619000" />
+      <workItem from="1609725513877" duration="1312000" />
+      <workItem from="1609749268948" duration="3185000" />
+      <workItem from="1609816097279" duration="6155000" />
+      <workItem from="1610003824614" duration="5655000" />
+      <workItem from="1610013985067" duration="4682000" />
+      <workItem from="1610068990803" duration="9712000" />
+      <workItem from="1610332116730" duration="1466000" />
+      <workItem from="1610344749281" duration="1459000" />
+      <workItem from="1610434466201" duration="689000" />
+      <workItem from="1610674229474" duration="1187000" />
+      <workItem from="1610790882621" duration="32000" />
+      <workItem from="1610935373605" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="java8 feature learning">
       <created>1559024229002</created>
@@ -455,7 +494,140 @@
       <option name="project" value="LOCAL" />
       <updated>1605193961111</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="文件转成MultipartFile">
+      <created>1605687194576</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1605687194576</updated>
+    </task>
+    <task id="LOCAL-00021" summary="增加线程池、FutureTask、Stream的例子">
+      <created>1607324419574</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607324419574</updated>
+    </task>
+    <task id="LOCAL-00022" summary="增加ForkJoin例子">
+      <created>1607332562292</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607332562292</updated>
+    </task>
+    <task id="LOCAL-00023" summary="正则表达式">
+      <created>1607579111820</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607579111820</updated>
+    </task>
+    <task id="LOCAL-00024" summary="idea自动转义特殊字符">
+      <created>1609725806885</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1609725806885</updated>
+    </task>
+    <task id="LOCAL-00025" summary="sort注解使用示例">
+      <created>1609750009033</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1609750009033</updated>
+    </task>
+    <task id="LOCAL-00026" summary="使用CAS解决并发问题">
+      <created>1609757601094</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609757601094</updated>
+    </task>
+    <task id="LOCAL-00027" summary="测试 StampedLock">
+      <created>1609817718842</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1609817718842</updated>
+    </task>
+    <task id="LOCAL-00028" summary="CyclicBarrier 例子">
+      <created>1609829554404</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1609829554404</updated>
+    </task>
+    <task id="LOCAL-00029" summary="测试 CyclicBarrier">
+      <created>1609844701580</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1609844701580</updated>
+    </task>
+    <task id="LOCAL-00030" summary="SimpleDateFormat线程安全写法">
+      <created>1610005597040</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610005597040</updated>
+    </task>
+    <task id="LOCAL-00031" summary="SimpleDateFormat的一个疑问">
+      <created>1610009466029</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610009466029</updated>
+    </task>
+    <task id="LOCAL-00032" summary="增加注释">
+      <created>1610010612448</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1610010612448</updated>
+    </task>
+    <task id="LOCAL-00033" summary="CompletableFuture回顾">
+      <created>1610022093035</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1610022093035</updated>
+    </task>
+    <task id="LOCAL-00034" summary="修改readme">
+      <created>1610022155126</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1610022155126</updated>
+    </task>
+    <task id="LOCAL-00035" summary="完善 CompletableFuture 例子">
+      <created>1610072801047</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610072801047</updated>
+    </task>
+    <task id="LOCAL-00036" summary="修改readme">
+      <created>1610076479814</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1610076479814</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Guava限流器">
+      <created>1610087368214</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610087368214</updated>
+    </task>
+    <task id="LOCAL-00038" summary="增加雪花算法id生成器例子">
+      <created>1610349459572</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1610349459572</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,18 +676,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="java8 feature learning" />
-    <MESSAGE value="增加多线程、jvm、源码学习例子" />
-    <MESSAGE value="增加多线程代码" />
-    <MESSAGE value="测试ConCurrentHashMap代码" />
-    <MESSAGE value="代码格式化" />
-    <MESSAGE value="增加动态代理demo" />
-    <MESSAGE value="增加runnable，callable，Future的例子" />
-    <MESSAGE value="增加aop例子" />
-    <MESSAGE value="提交CountDownLatch测试列子" />
-    <MESSAGE value="面试题：两个Long类型的比较" />
-    <MESSAGE value="测试深拷贝、浅拷贝" />
-    <MESSAGE value="添加测试：自动拆装箱，以及拆装箱的缓存问题" />
     <MESSAGE value="添加slf4j测试demo" />
     <MESSAGE value="增加substring测试，jdk1.6和1.7不一样" />
     <MESSAGE value="拼接字符串几种方式的比较" />
@@ -523,76 +683,136 @@
     <MESSAGE value="1、线程池使用guava&#10;2、subList不可强转成ArrayList、LinkedList等&#10;3、Collector的stream处理注意事项" />
     <MESSAGE value="switch 参数是 String 的时候，需要判空" />
     <MESSAGE value="1、LinkedHashMap实现LRU（未完成）&#10;2、随机生成范围内的小数" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、LinkedHashMap实现LRU（未完成）&#10;2、随机生成范围内的小数" />
+    <MESSAGE value="文件转成MultipartFile" />
+    <MESSAGE value="增加线程池、FutureTask、Stream的例子" />
+    <MESSAGE value="增加ForkJoin例子" />
+    <MESSAGE value="正则表达式" />
+    <MESSAGE value="idea自动转义特殊字符" />
+    <MESSAGE value="sort注解使用示例" />
+    <MESSAGE value="使用CAS解决并发问题" />
+    <MESSAGE value="测试 StampedLock" />
+    <MESSAGE value="CyclicBarrier 例子" />
+    <MESSAGE value="测试 CyclicBarrier" />
+    <MESSAGE value="SimpleDateFormat线程安全写法" />
+    <MESSAGE value="SimpleDateFormat的一个疑问" />
+    <MESSAGE value="增加注释" />
+    <MESSAGE value="CompletableFuture回顾" />
+    <MESSAGE value="完善 CompletableFuture 例子" />
+    <MESSAGE value="修改readme" />
+    <MESSAGE value="Guava限流器" />
+    <MESSAGE value="增加雪花算法id生成器例子" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加雪花算法id生成器例子" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1604544796111">
+    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser" timestamp="1610348065382">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604544796111" />
-    <state x="144" y="100" width="1252" height="854" key="CommitChangelistDialog2" timestamp="1605193960842">
-      <screen x="0" y="23" width="1440" height="828" />
+    <state x="580" y="214" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610070756599" />
+    <state x="2213" y="267" key="#com.intellij.ide.util.MemberChooser/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610348065382" />
+    <state x="2138" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610004391343">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1632" y="121" width="1252" height="854" key="CommitChangelistDialog2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604565448473" />
+    <state x="2138" y="305" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610004391343" />
+    <state x="1500" y="77" width="1098" height="669" key="CommitChangelistDialog2" timestamp="1610349459343">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="45" y="65" width="1098" height="669" key="CommitChangelistDialog2/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610087367990" />
+    <state x="1500" y="77" width="1252" height="854" key="CommitChangelistDialog2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349459343" />
     <state x="144" y="100" key="CommitChangelistDialog2/0.23.1440.828@0.23.1440.828" timestamp="1605193960842" />
-    <state x="1682" y="206" key="DiffContextDialog" timestamp="1604558278900">
+    <state width="434" height="466" key="DebuggerActiveHint" timestamp="1609829173988">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1682" y="206" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604558278900" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom" timestamp="1605194456584">
+    <state width="434" height="466" key="DebuggerActiveHint/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609829173988" />
+    <state x="182" y="166" width="864" height="519" key="DiffContextDialog" timestamp="1610090805671">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557954" />
-    <state width="1398" height="204" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1605194456584" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center" timestamp="1605194456583">
+    <state x="182" y="166" width="864" height="519" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610090805671" />
+    <state x="1682" y="206" width="1152" height="662" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606958568547" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1610938351035">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
-    <state width="1398" height="204" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1605194456583" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left" timestamp="1605194456583">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938351035" />
+    <state width="1878" height="323" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
+    <state width="1878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1607594634992" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1610938351032">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
-    <state width="1398" height="204" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1605194456583" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right" timestamp="1605194456584">
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938351032" />
+    <state width="1878" height="323" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
+    <state width="1878" height="211" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1607594634991" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1610938351029">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1878" height="286" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604572557953" />
-    <state width="1398" height="204" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1605194456584" />
-    <state width="1878" height="358" key="GridCell.Tab.1.bottom" timestamp="1604400981532">
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938351029" />
+    <state width="1878" height="323" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479276" />
+    <state width="1878" height="211" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1607594634990" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1610938351034">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938351034" />
+    <state width="1878" height="323" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
+    <state width="1878" height="211" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1607594634991" />
+    <state width="1398" height="293" key="GridCell.Tab.1.bottom" timestamp="1610098593148">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.1.bottom/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610098593148" />
+    <state width="1878" height="328" key="GridCell.Tab.1.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609844801580" />
+    <state width="1878" height="462" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1607380870368" />
+    <state width="1398" height="293" key="GridCell.Tab.1.center" timestamp="1610098593147">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.1.center/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610098593147" />
+    <state width="1878" height="328" key="GridCell.Tab.1.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609844801579" />
+    <state width="1878" height="462" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1607380870368" />
+    <state width="1398" height="293" key="GridCell.Tab.1.left" timestamp="1610098593147">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.1.left/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610098593147" />
+    <state width="1878" height="328" key="GridCell.Tab.1.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609844801579" />
+    <state width="1878" height="462" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1607380870367" />
+    <state width="1398" height="293" key="GridCell.Tab.1.right" timestamp="1610098593148">
+      <screen x="0" y="23" width="1440" height="828" />
+    </state>
+    <state width="1398" height="293" key="GridCell.Tab.1.right/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610098593148" />
+    <state width="1878" height="328" key="GridCell.Tab.1.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609844801580" />
+    <state width="1878" height="462" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1607380870368" />
+    <state width="1878" height="345" key="GridCell.Tab.2.bottom" timestamp="1609749217569">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="358" key="GridCell.Tab.1.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981532" />
-    <state width="1878" height="358" key="GridCell.Tab.1.center" timestamp="1604400981530">
+    <state width="1878" height="345" key="GridCell.Tab.2.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609749217569" />
+    <state width="1878" height="345" key="GridCell.Tab.2.center" timestamp="1609749217568">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="358" key="GridCell.Tab.1.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981530" />
-    <state width="1878" height="358" key="GridCell.Tab.1.left" timestamp="1604400981529">
+    <state width="1878" height="345" key="GridCell.Tab.2.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609749217568" />
+    <state width="1878" height="345" key="GridCell.Tab.2.left" timestamp="1609749217568">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="358" key="GridCell.Tab.1.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981529" />
-    <state width="1878" height="358" key="GridCell.Tab.1.right" timestamp="1604400981530">
+    <state width="1878" height="345" key="GridCell.Tab.2.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609749217568" />
+    <state width="1878" height="345" key="GridCell.Tab.2.right" timestamp="1609749217568">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="358" key="GridCell.Tab.1.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604400981530" />
+    <state width="1878" height="345" key="GridCell.Tab.2.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609749217568" />
     <state x="2010" y="370" key="NewModule_or_Project.wizard" timestamp="1603933038283">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="2010" y="370" key="NewModule_or_Project.wizard/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603933038283" />
-    <state x="1996" y="258" key="RollbackChangesDialog" timestamp="1604558280024">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="1996" y="258" key="RollbackChangesDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604558280024" />
-    <state x="1828" y="243" width="1283" height="722" key="SettingsEditor" timestamp="1603933290649">
-      <screen x="1440" y="23" width="1920" height="1057" />
-    </state>
-    <state x="1828" y="243" width="1283" height="722" key="SettingsEditor/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603933290649" />
-    <state x="420" y="233" key="Vcs.Push.Dialog.v2" timestamp="1605194013613">
+    <state x="417" y="207" key="RollbackChangesDialog" timestamp="1610090808239">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604565454387" />
+    <state x="417" y="207" key="RollbackChangesDialog/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610090808239" />
+    <state x="1996" y="258" key="RollbackChangesDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604558280024" />
+    <state x="1594" y="157" width="1024" height="828" key="SettingsEditor" timestamp="1609749853116">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1594" y="157" width="1024" height="828" key="SettingsEditor/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1609749853116" />
+    <state x="1828" y="243" width="1283" height="722" key="SettingsEditor/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1603933290649" />
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2" timestamp="1610349463935">
+      <screen x="1440" y="23" width="1920" height="1057" />
+    </state>
+    <state x="420" y="233" key="Vcs.Push.Dialog.v2/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610087371929" />
+    <state x="2000" y="291" key="Vcs.Push.Dialog.v2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349463935" />
     <state x="420" y="233" key="Vcs.Push.Dialog.v2/0.23.1440.828@0.23.1440.828" timestamp="1605194013613" />
     <state x="2227" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603950190161">
       <screen x="1440" y="23" width="1920" height="1057" />
@@ -602,14 +822,15 @@
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state x="1930" y="294" width="939" height="595" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604561758094" />
-    <state x="1915" y="194" width="587" height="476" key="find.popup" timestamp="1604563905561">
+    <state x="1915" y="194" width="966" height="490" key="find.popup" timestamp="1610344779203">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="1915" y="194" width="587" height="476" key="find.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1604563905561" />
-    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1605682099089">
+    <state x="151" y="58" width="1126" height="744" key="find.popup/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610332142230" />
+    <state x="1915" y="194" width="966" height="490" key="find.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610344779203" />
+    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1609826364747">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1605682099089" />
+    <state x="2065" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609826364747" />
     <state x="469" y="207" width="503" height="530" key="search.everywhere.popup/0.23.1440.828@0.23.1440.828" timestamp="1605193902011" />
   </component>
   <component name="XDebuggerManager">
@@ -625,6 +846,26 @@
           <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geniu/base/stream/TestStream.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/geniu/concurrent/ThreadPool/ThreadPoolTest2.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_261.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java</url>
+          <line>412</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="6" />
@@ -635,6 +876,12 @@
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="this.getSpringFactoriesLoaderFactoryClass()" language="JAVA" />
         <watch expression="this.getBeanClassLoader()" language="JAVA" />
+      </configuration>
+      <configuration name="Application">
+        <watch expression="task1.get()" language="JAVA" />
+        <watch expression="System.getenv()" language="JAVA" />
+        <watch expression="System.getProperty(&quot;ja&quot;)" language="JAVA" />
+        <watch expression="System.getProperty(&quot;java.util.concurrent.ForkJoinPool.common.parallelism&quot;)" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>
