@@ -9,8 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04334e9-a621-4f3b-a3b4-5455db21cf5f" name="Default" comment="增加动态代理demo">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/geniu/base/expression/TestBinocular.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/geniu/base/expression/TestBinocular.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -85,7 +87,7 @@
       <recent name="E:\workspace-prepared\Java-learning\src\main\java\com\geniu\" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestMapIterator">
+  <component name="RunManager" selected="Application.TestBinocular">
     <configuration name="RandomIdGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.geniu.IdGenerator.RandomIdGenerator" />
       <module name="demo" />
@@ -100,13 +102,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCompletableFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geniu.concurrent.completedFuture.TestCompletableFuture" />
+    <configuration name="TestBinocular" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geniu.base.expression.TestBinocular" />
       <module name="demo" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.geniu.concurrent.completedFuture.*" />
+          <option name="PATTERN" value="com.geniu.base.expression.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,15 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,21 +206,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestCompletableFuture" />
       <item itemvalue="Application.TestRateLimiter" />
       <item itemvalue="Application.RandomIdGenerator" />
       <item itemvalue="Application.TestList" />
       <item itemvalue="Application.TestMapIterator" />
       <item itemvalue="Spring Boot.JavaLearningApplication" />
       <item itemvalue="Spring Boot.JavaLearningApplication (1)" />
+      <item itemvalue="Application.TestBinocular" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestBinocular" />
         <item itemvalue="Application.TestMapIterator" />
         <item itemvalue="Application.TestList" />
         <item itemvalue="Application.RandomIdGenerator" />
         <item itemvalue="Application.TestRateLimiter" />
-        <item itemvalue="Application.TestCompletableFuture" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +284,8 @@
       <workItem from="1610674229474" duration="1187000" />
       <workItem from="1610790882621" duration="32000" />
       <workItem from="1610935373605" duration="2424000" />
-      <workItem from="1610938844387" duration="191000" />
+      <workItem from="1610938844387" duration="1094000" />
+      <workItem from="1610951093598" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="java8 feature learning">
       <created>1559024229002</created>
@@ -655,28 +656,28 @@
     </state>
     <state x="182" y="166" width="864" height="519" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610090805671" />
     <state x="1682" y="206" width="1152" height="662" key="DiffContextDialog/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1606958568547" />
-    <state width="1398" height="328" key="GridCell.Tab.0.bottom" timestamp="1610938662833">
+    <state width="1398" height="327" key="GridCell.Tab.0.bottom" timestamp="1610951782327">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938662833" />
+    <state width="1398" height="327" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610951782327" />
     <state width="1878" height="323" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
     <state width="1878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1607594634992" />
-    <state width="1398" height="328" key="GridCell.Tab.0.center" timestamp="1610938662832">
+    <state width="1398" height="327" key="GridCell.Tab.0.center" timestamp="1610951782326">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938662832" />
+    <state width="1398" height="327" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610951782326" />
     <state width="1878" height="323" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
     <state width="1878" height="211" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1607594634991" />
-    <state width="1398" height="328" key="GridCell.Tab.0.left" timestamp="1610938662831">
+    <state width="1398" height="327" key="GridCell.Tab.0.left" timestamp="1610951782325">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938662831" />
+    <state width="1398" height="327" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610951782325" />
     <state width="1878" height="323" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479276" />
     <state width="1878" height="211" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1607594634990" />
-    <state width="1398" height="328" key="GridCell.Tab.0.right" timestamp="1610938662832">
+    <state width="1398" height="327" key="GridCell.Tab.0.right" timestamp="1610951782326">
       <screen x="0" y="23" width="1440" height="828" />
     </state>
-    <state width="1398" height="328" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610938662832" />
+    <state width="1398" height="327" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@0.23.1440.828" timestamp="1610951782326" />
     <state width="1878" height="323" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610349479277" />
     <state width="1878" height="211" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1607594634991" />
     <state width="1398" height="293" key="GridCell.Tab.1.bottom" timestamp="1610098593148">
