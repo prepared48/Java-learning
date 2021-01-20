@@ -5,6 +5,16 @@
 
 ### 1、Callable 线程
 
+    public class FetchAdTask implements Callable<Ad> {
+    
+        @Override
+        public Ad call() throws Exception {
+            System.out.println("fetch task");
+            sleep(1000L);
+            return null;
+        }
+    }
+
 ### 2、使用Future，包括 FutureTask、CompletableFuture
 
     CompletableFuture.get();
