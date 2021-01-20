@@ -134,6 +134,31 @@ T1:泡茶...
 上茶:龙井
 ```
 
+
+### 1.4 获取线程执行结果的几种方式
+
+#### 1.4.1、Callable 线程
+
+#### 1.4.2、使用Future，包括 FutureTask、CompletableFuture
+
+    CompletableFuture.get();
+    
+Future 的优点：可以对任务设置时限，如果超时了，可以取消，然后返回一个默认结果，防止
+某一个任务出现问题，导致系统出现问题。
+
+    f.get(timeLeft, TimeUnit.NANOSECONDS);
+    
+或者通过 invokeAll() 返回限定时间范围内的所有任务的结果。     
+
+    executor.invokeAll(tasks, time, unit);   
+
+#### 1.4.3、使用 CompletionService，
+
+    CompletionService.take();
+    
+优点：多个 CompletionService 可以共享一个 Executor，因此可以创建一个对于特定计算私有，
+又能共享一个公共 Executor 的 ExecutorCompletionService。
+
 本人博客：https://www.geniu.net/
 
 本人csdn博客链接：https://blog.csdn.net/Prepared
