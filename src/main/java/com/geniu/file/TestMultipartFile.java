@@ -17,7 +17,7 @@ public class TestMultipartFile {
     private static final String ROOT_FOLDER = new File("").getAbsolutePath();
 
     public static void main(String[] args) {
-        String fileName = ROOT_FOLDER + "/file/电子签名-e签宝.jpg";
+        String fileName = ROOT_FOLDER + "/file/demo.jpg";
         File file = new File(fileName);
         InputStream inputStream = null;
         try {
