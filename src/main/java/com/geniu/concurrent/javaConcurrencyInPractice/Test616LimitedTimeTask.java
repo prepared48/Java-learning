@@ -41,7 +41,7 @@ public class Test616LimitedTimeTask {
         try {
             long timeLeft = endNanos - System.nanoTime();
             // 增加参数 超时时间和超时时间的单位
-            f.get(timeLeft, TimeUnit.NANOSECONDS);
+            ad = f.get(timeLeft, TimeUnit.NANOSECONDS);
         } catch (ExecutionException e) {
             ad = DEFAULT_AD;
         } catch (TimeoutException e) {

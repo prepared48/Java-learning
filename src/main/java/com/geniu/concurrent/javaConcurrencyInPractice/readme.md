@@ -28,9 +28,69 @@ Future 的优点：可以对任务设置时限，如果超时了，可以取消�
 
     executor.invokeAll(tasks, time, unit);   
 
+CompletableFuture, 使用 supplyAsync 方法提交线程，使用 get 方法获取结果。
+
+    CompletableFuture<Integer> task3 = CompletableFuture.supplyAsync(() -> {
+            System.out.println("任务3, 线程名字" + Thread.currentThread().getName());
+            try {
+                sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return 3;
+        });
+
+        CompletableFuture.allOf(task1, task2, task3, task4);
+        System.out.println("end: " + new Date());
+        task1.get();
+
 ### 3、使用 CompletionService，
 
     CompletionService.take();
     
+例子
+
+    private static final long TIME_BUDGET = 100L;
+    private static final Ad DEFAULT_AD = new Ad();
+
+    private final ExecutorService executor = new ThreadPoolExecutor(Runtime.getRuntime().availableProcessors() + 1,
+            Runtime.getRuntime().availableProcessors() + 1, 0L,
+            TimeUnit.MILLISECONDS, new LinkedBlockingQueue(1000));
+    
+
+    public static void main(String[] args) {
+        try {
+            Test616LimitedTimeTask task = new Test616LimitedTimeTask();
+            task.test();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /**
+     * 测试超时取消
+     *
+     * @throws InterruptedException
+     */
+    void test() throws InterruptedException {
+        Ad ad = null;
+        long endNanos = System.nanoTime() + TIME_BUDGET;
+        Future<Ad> f = executor.submit(new FetchAdTask());
+        try {
+            long timeLeft = endNanos - System.nanoTime();
+            // 增加参数 超时时间和超时时间的单位
+            ad = f.get(timeLeft, TimeUnit.NANOSECONDS);
+        } catch (ExecutionException e) {
+            ad = DEFAULT_AD;
+        } catch (TimeoutException e) {
+            // 超时，取消任务
+            ad = DEFAULT_AD;
+            System.out.println("超时取消");
+            f.cancel(true);
+        }
+    }    
+    
 优点：多个 CompletionService 可以共享一个 Executor，因此可以创建一个对于特定计算私有，
 又能共享一个公共 Executor 的 ExecutorCompletionService。
+
+源码：https://github.com/zhongsb/Java-learning.git
