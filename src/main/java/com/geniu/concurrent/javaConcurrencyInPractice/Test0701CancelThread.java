@@ -8,6 +8,8 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
  * 如何优雅的停止线程
+ * cancel标志，如果调用阻塞方法，可能会导致永远也不会检查取消标志，导致线程不能被终止
+ * ==》中断是实现取消的最合理方式
  *
  * @Author: zhongshibo
  * @Date: 2021/1/21 21:56
