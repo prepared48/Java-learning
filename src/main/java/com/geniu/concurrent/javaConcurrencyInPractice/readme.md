@@ -93,4 +93,45 @@ CompletableFuture, 使用 supplyAsync 方法提交线程，使用 get 方法获�
 优点：多个 CompletionService 可以共享一个 Executor，因此可以创建一个对于特定计算私有，
 又能共享一个公共 Executor 的 ExecutorCompletionService。
 
+## 取消任务
+
+### 正确姿势
+
+通过 Future.cancel 来取消任务。
+
+当Future.get抛出 InterruptedException或者TimeoutException时，如果你知道不再需要结果，
+那么就可以调用Future.cancel来取消任务
+
+### cancel标志取消线程
+
+```
+@Override
+public void run() {
+    System.out.println("执行线程");
+    BigInteger p = BigInteger.ONE;
+    while (!cancelled) {
+        p = p.nextProbablePrime();
+        synchronized (this) {
+            primes.add(p);
+        }
+    }
+}
+```
+
+### 通过interrupt中断线程
+
+```
+@Override
+public void run() {
+    try {
+        BigInteger p = BigInteger.ONE;
+        while (!Thread.currentThread().isInterrupted()) {
+            queue.put(p = p.nextProbablePrime());
+        }
+    } catch (InterruptedException e) {
+        e.printStackTrace();
+    }
+}
+```
+
 源码：https://github.com/zhongsb/Java-learning.git
