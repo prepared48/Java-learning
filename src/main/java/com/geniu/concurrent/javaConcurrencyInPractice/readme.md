@@ -95,7 +95,7 @@ CompletableFuture, 使用 supplyAsync 方法提交线程，使用 get 方法获�
 
 ## 取消任务
 
-### 正确姿势
+### Future 正确姿势
 
 通过 Future.cancel 来取消任务。
 
@@ -137,5 +137,27 @@ public void run() {
 ```
 
 问题：存在join的不足，不知道执行控制是因为线程正常退出而返回还是因为join超时而返回
+
+### 毒丸取消线程
+
+只有在生产者和消费者的数量都已知的情况下，才可以使用"毒丸"对象。
+
+**只有在无界队列中，"毒丸"对象次啊能可靠地工作**。
+
+### ExecutorService 取消
+
+ExecutorService 线程池取消，可以调用线程池的 shutdown() 方法或者 shutdownNow()
+
+建议使用 shutdown() 方法。
+
+```
+exec.shutdown();
+// TODO 问：为什么停止线程，需要调用以下语句
+// 这个方法就是调用shutdown() 之后等待任务执行完毕的方法，可以查看源码的注释
+// Blocks until all tasks have completed execution after a shutdown
+// request, or the timeout occurs, or the current thread is
+// interrupted, whichever happens first.
+exec.awaitTermination(TIMEOUT, UNIT);
+```
 
 源码：https://github.com/zhongsb/Java-learning.git
