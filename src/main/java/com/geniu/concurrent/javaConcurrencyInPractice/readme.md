@@ -118,6 +118,8 @@ public void run() {
 }
 ```
 
+问题：如果阻塞了，导致不走cancel标志，那么就会导致停止不了。
+
 ### 通过interrupt中断线程
 
 ```
@@ -133,5 +135,7 @@ public void run() {
     }
 }
 ```
+
+问题：存在join的不足，不知道执行控制是因为线程正常退出而返回还是因为join超时而返回
 
 源码：https://github.com/zhongsb/Java-learning.git
