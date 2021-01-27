@@ -1,5 +1,6 @@
-package com.geniu.concurrent.javaConcurrencyInPractice;
+package com.geniu.concurrent.javaConcurrencyInPractice.charpter6;
 
+import com.geniu.concurrent.javaConcurrencyInPractice.charpter7.FetchAdTask;
 import sun.jvm.hotspot.debugger.Page;
 
 import java.util.concurrent.*;

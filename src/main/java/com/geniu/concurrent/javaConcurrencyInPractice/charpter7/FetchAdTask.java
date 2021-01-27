@@ -1,4 +1,6 @@
-package com.geniu.concurrent.javaConcurrencyInPractice;
+package com.geniu.concurrent.javaConcurrencyInPractice.charpter7;
+
+import com.geniu.concurrent.javaConcurrencyInPractice.charpter6.Ad;
 
 import java.util.concurrent.Callable;
 

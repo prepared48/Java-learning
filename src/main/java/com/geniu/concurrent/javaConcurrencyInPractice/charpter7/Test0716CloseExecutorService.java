@@ -1,7 +1,5 @@
 package com.geniu.concurrent.javaConcurrencyInPractice.charpter7;
 
-import com.geniu.concurrent.javaConcurrencyInPractice.WriteTask;
-
 import java.io.PrintWriter;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
