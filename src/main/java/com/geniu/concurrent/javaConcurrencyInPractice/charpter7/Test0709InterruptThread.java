@@ -1,4 +1,4 @@
-package com.geniu.concurrent.javaConcurrencyInPractice;
+package com.geniu.concurrent.javaConcurrencyInPractice.charpter7;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

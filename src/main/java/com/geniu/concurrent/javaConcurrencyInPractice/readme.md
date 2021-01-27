@@ -160,4 +160,12 @@ exec.shutdown();
 exec.awaitTermination(TIMEOUT, UNIT);
 ```
 
+## 守护线程
+
+在JVM启东市创建的所有线程中，除了主线程以外，其他的线程都是守护线程。
+
+1、我们应该尽量少地使用守护线程。
+
+
+
 源码：https://github.com/zhongsb/Java-learning.git
