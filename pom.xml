@@ -16,7 +16,8 @@
 
 	<properties>
 		<java.version>1.8</java.version>
-        <log4j-slf4j-impl.version>2.11.1</log4j-slf4j-impl.version>
+		<log4j-slf4j-impl.version>2.11.1</log4j-slf4j-impl.version>
+		<resilience4jVersion>1.6.1</resilience4jVersion>
 	</properties>
 
 	<dependencies>
@@ -81,7 +82,13 @@
 			<artifactId>fastjson</artifactId>
 			<version>1.2.75</version>
 		</dependency>
-
+		<!--容错库 resilience4j-->
+		<!-- https://mvnrepository.com/artifact/io.github.resilience4j/resilience4j-all -->
+		<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-all</artifactId>
+			<version>${resilience4jVersion}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
