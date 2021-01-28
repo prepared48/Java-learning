@@ -89,6 +89,13 @@
 			<artifactId>resilience4j-all</artifactId>
 			<version>${resilience4jVersion}</version>
 		</dependency>
+
+		<!--vavr-致力于减少代码行数-->
+		<dependency>
+			<groupId>io.vavr</groupId>
+			<artifactId>vavr</artifactId>
+			<version>0.10.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
