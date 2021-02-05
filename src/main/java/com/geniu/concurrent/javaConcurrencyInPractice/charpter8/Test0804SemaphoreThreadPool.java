@@ -1,8 +1,6 @@
 package com.geniu.concurrent.javaConcurrencyInPractice.charpter8;
 
-import java.util.concurrent.Executor;
-import java.util.concurrent.RejectedExecutionException;
-import java.util.concurrent.Semaphore;
+import java.util.concurrent.*;
 
 /**
  * 使用信号量 Semaphore 控制任务的提交速率
@@ -11,6 +9,12 @@ import java.util.concurrent.Semaphore;
  * @Date: 2021/2/4 22:12
  */
 public class Test0804SemaphoreThreadPool {
+
+    public static void main(String[] args) {
+        ExecutorService exec = Executors.newScheduledThreadPool(5);
+        // 设置一个信号量为 5 个线程池（只能5个线程同时访问）
+        Test0804SemaphoreThreadPool semaphoreThreadPool = new Test0804SemaphoreThreadPool(exec, new Semaphore(5));
+    }
 
     private final Executor exec;
 
