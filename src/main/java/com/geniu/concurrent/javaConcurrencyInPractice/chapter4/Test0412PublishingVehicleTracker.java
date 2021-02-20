@@ -11,13 +11,13 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Author: zhongshibo
  * @Date: 2021/2/19 22:45
  */
-public class Test0412 {
+public class Test0412PublishingVehicleTracker {
 
     private final Map<String, SafePoint> locations;
 
     private final Map<String, SafePoint> unmodifiableMap;
 
-    public Test0412(Map<String, SafePoint> locations) {
+    public Test0412PublishingVehicleTracker(Map<String, SafePoint> locations) {
         this.locations = new ConcurrentHashMap<>(locations);
         unmodifiableMap = Collections.unmodifiableMap(this.locations);
     }
