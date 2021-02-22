@@ -17,6 +17,7 @@ public class Test0520Factorizer implements Servlet {
     private final Computable<BigInteger, BigInteger[]> c = new Computable<BigInteger, BigInteger[]>() {
         @Override
         public BigInteger[] compute(BigInteger arg) throws InterruptedException {
+            // 因式分解
             return factor(arg);
         }
     };
@@ -25,6 +26,7 @@ public class Test0520Factorizer implements Servlet {
         return null;
     }
 
+    // 使用缓存保存因式分解结果
     private final Computable<BigInteger, BigInteger[]> cache = new Test0519Memoizer<BigInteger, BigInteger[]>(c);
 
     @Override
