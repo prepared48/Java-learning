@@ -36,7 +36,9 @@ public class Test1202BoundedBufferTest extends TestCase {
             @Override
             public void run() {
                 try {
-                    bb.take();
+                    int unused = bb.take();
+                    // TestCase 带的方法，表示失败
+                    fail();
                 } catch (InterruptedException success) {
                     // 一个空队列，获取对象就是应该报异常。成功
                 }

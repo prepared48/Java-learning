@@ -2,6 +2,7 @@ package com.geniu.concurrent.javaConcurrencyInPractice.chapter12;
 
 import org.omg.CORBA.Object;
 
+import javax.annotation.concurrent.GuardedBy;
 import javax.annotation.concurrent.ThreadSafe;
 import java.util.concurrent.Semaphore;
 
@@ -15,16 +16,19 @@ import java.util.concurrent.Semaphore;
 @ThreadSafe
 public class Test1201BoundedBuffer<E> {
 
-    // 可以从缓存中删除的元素个数 可以插入到缓存中的元素个数
+    // availableItems可以从缓存中删除的元素个数, availableSpaces可以插入到缓存中的元素个数
     private final Semaphore availableItems, availableSpaces;
 
+    @GuardedBy("this")
     private final E[] items;
 
+    @GuardedBy("this")
     private int putPosition = 0, takePosition = 0;
 
     public Test1201BoundedBuffer(int capacity) {
         availableItems = new Semaphore(0);
         availableSpaces = new Semaphore(capacity);
+        // 问题：不能创建 E 对象数组，只能创建Object数组
         items = (E[]) new Object[capacity];
     }
 
