@@ -1,10 +1,14 @@
 package com.geniu.concurrent.javaConcurrencyInPractice.chapter10;
 
+import java.util.concurrent.locks.ReentrantLock;
+
 /**
  * @Author: zhongshibo
  * @Date: 2021/2/25 09:20
  */
 public class Account {
+
+    public ReentrantLock lock;
 
     private int balance;
 
