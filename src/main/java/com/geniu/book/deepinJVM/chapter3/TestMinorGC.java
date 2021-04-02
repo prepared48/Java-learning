@@ -8,6 +8,20 @@ package com.geniu.book.deepinJVM.chapter3;
  * 新生代从7052K-》873K，
  * <p>
  * 老年代10M，使用4MB，allocation4 分配到老年代（大对象或者是分配担保机制）
+ * <p>
+ * GC日志打印到文件中，并且打印GC前后堆的使用详细信息
+ * <p>
+ * -verbose:gc
+ * -Xms20M
+ * -Xmx20M
+ * -Xmn10M
+ * -XX:+PrintGCDetails
+ * -Xloggc:gc.log
+ * -XX:+PrintHeapAtGC
+ * -XX:SurvivorRatio=8
+ * ========================
+ * <p>
+ * 详细分析文章参考：https://mp.weixin.qq.com/s/Fe_x3YcwbhT6yeve3tQbBw
  *
  * @Author: zhongshibo
  * @Date: 2021/3/31 21:09
