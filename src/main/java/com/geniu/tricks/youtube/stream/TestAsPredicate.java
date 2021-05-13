@@ -1,4 +1,4 @@
-package com.geniu.tricks.youtube;
+package com.geniu.tricks.youtube.stream;
 
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +10,7 @@ import java.util.function.Predicate;
  * @Author: zhongshibo
  * @Date: 2021/5/13 09:38
  */
-public class TestAsPractice {
+public class TestAsPredicate {
 
     public static void main(String[] args) {
         test2();
