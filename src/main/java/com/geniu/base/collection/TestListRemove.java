@@ -24,9 +24,9 @@ public class TestListRemove {
             Integer next = iterator.next();
             if (next % 5 == 0) {
                 // 正确写法
-//                iterator.remove();
+                iterator.remove();
                 // 报错写法
-                list.remove(next);
+//                list.remove(next);
             }
         }
         System.out.println("执行结束 size:" + list.size());
