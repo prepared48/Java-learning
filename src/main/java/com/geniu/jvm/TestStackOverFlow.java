@@ -1,5 +1,9 @@
 package com.geniu.jvm;
 
+/**
+ *
+ * 测试栈深度
+ */
 public class TestStackOverFlow {
 
 	private int i = 0;

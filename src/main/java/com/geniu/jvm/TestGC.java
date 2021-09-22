@@ -1,6 +1,9 @@
 package com.geniu.jvm;
 
 /**
+ * -Xms1m -Xmx1m -XX:+UseSerialGC
+ *
+ *
  * @Author: zhongshibo
  * @Date: 2020/9/15 17:39
  */
