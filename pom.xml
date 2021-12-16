@@ -108,6 +108,14 @@
 			<artifactId>commons-configuration</artifactId>
 			<version>1.8</version>
 		</dependency>
+
+		<!--邮件相关-->
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>mail</artifactId>
+			<version>1.4.1</version>
+			<!--<url>http://java.sun.com/products/javamail/</url>-->
+		</dependency>
 	</dependencies>
 
 	<build>
