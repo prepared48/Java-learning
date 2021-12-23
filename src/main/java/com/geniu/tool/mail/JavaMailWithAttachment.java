@@ -69,14 +69,14 @@ public class JavaMailWithAttachment {
             multiPartEmail.setHostName(mailHost);
             multiPartEmail.setAuthentication(sender_username, sender_password);
             // 发件人
-            multiPartEmail.setFrom(sender_username, "去哪儿网");
+            multiPartEmail.setFrom(sender_username, "prepared.com");
             // 收件人
             multiPartEmail.addTo(receiveUser);
 
             // 邮件主题
             multiPartEmail.setSubject(subject);
-//            multiPartEmail.setMsg(sendHtml);
-            multiPartEmail.setContent(sendHtml, "text/html; charset=utf-8");
+            multiPartEmail.setMsg(sendHtml);
+//            multiPartEmail.setContent(sendHtml, "text/html; charset=utf-8");
             EmailAttachment attachmentLogs = new EmailAttachment();
             attachmentLogs.setPath(attachment.getPath());
             attachmentLogs.setDisposition(EmailAttachment.ATTACHMENT);
@@ -175,8 +175,7 @@ public class JavaMailWithAttachment {
      *
      * @param message
      */
-    public void sendEmail (EmailMessage message) {
-        MimeMultipart multipart = message.getMultipart();
+    public void sendHTMLEmail (EmailMessage message) {
         try {
             HtmlEmail htmlEmail = new HtmlEmail();
             htmlEmail.setAuthentication(sender_username, sender_password);
@@ -184,70 +183,67 @@ public class JavaMailWithAttachment {
             htmlEmail.addTo(message.getEmailTo());
             htmlEmail.setFrom(sender_username, "prepared.com");
             htmlEmail.setSubject(message.getEmailSubJect());
-            htmlEmail.setContent(multipart);
+            htmlEmail.setMsg(message.getEmailContent());
             htmlEmail.setCharset("utf-8");
             // 乱码解决
-            String name = new String(message.getAttachFile().toString().getBytes(),"utf-8");
+            String name = new String(message.getAttachFile().getName().toString().getBytes(),"utf-8");
             sun.misc.BASE64Encoder enc = new sun.misc.BASE64Encoder();
 //            String name1="=?UTF-8?B?"+enc.encode("测试.txt".getBytes("utf-8"))+"?=";
             String fileName = "=?UTF-8?B?"+enc.encode(name.getBytes("utf-8"))+"?=";
             htmlEmail.embed(new FileDataSource(message.getAttachFile()), fileName);
-            htmlEmail.setMsg(message.getEmailContent());
             htmlEmail.send();
         } catch (EmailException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
-
-    }
-
-    public static void main(String[] args) {
-        JavaMailWithAttachment se = new JavaMailWithAttachment(true);
-        EmailMessage emailMessage = new EmailMessage();
-        Map<String, Object> fileContent = new HashMap<>();
-        fileContent.put("key", "vales");
-        String msgHtml = "<html>\n" +
-                "\t<head><meta http-equiv=Content-Type content=text/html; charset=utf-8></head>\n" +
-                "\t<body bgcolor=\"#ffffff\" topmargin=\"0\" rightmargin=\"0\" bottommargin=\"0\" leftmargin=\"0\"> \n" +
-                "\t\t\t<table width=\"580\" style=\"font-size:12px;\">\t\n" +
-                "\t\t\t\t<tr>\t\n" +
-                "\t\t\t\t\t<td align=\"left\">尊敬的用户，您好：\t<br><br>&nbsp;&nbsp;&nbsp;&nbsp;请下载附件。            \n" +
-                "\t\t\t\t\t</td>\t\n" +
-                "\t\t\t\t</tr> \n" +
-                "\t\t\t</table> \n" +
-                "\t</body> \n" +
-                "\n" +
-                "</html>";
-        MimeMultipart mimeMultipart = FileUtil.contentToMultipart(fileContent, "测试.txt");
-        emailMessage.setMultipart(mimeMultipart);
-        emailMessage.setAttachFile(FileUtil.contentToFile(fileContent, "测试prepared.txt"));
-        emailMessage.setEmailTo("test@qq.com");
-        emailMessage.setEmailSubJect("test");
-        emailMessage.setEmailContent(msgHtml);
-//        emailMessage.setType(19);
-        se.sendEmail(emailMessage);
     }
 
 //    public static void main(String[] args) {
-//        String sendContent = "<html>\n" +
+//        JavaMailWithAttachment se = new JavaMailWithAttachment(true);
+//        EmailMessage emailMessage = new EmailMessage();
+//        Map<String, Object> fileContent = new HashMap<>();
+//        fileContent.put("key", "vales");
+//        fileContent.put("test1", "value2");
+//        String msgHtml = "<html>\n" +
 //                "\t<head><meta http-equiv=Content-Type content=text/html; charset=utf-8></head>\n" +
 //                "\t<body bgcolor=\"#ffffff\" topmargin=\"0\" rightmargin=\"0\" bottommargin=\"0\" leftmargin=\"0\"> \n" +
-//                "\t\t<center> \n" +
 //                "\t\t\t<table width=\"580\" style=\"font-size:12px;\">\t\n" +
 //                "\t\t\t\t<tr>\t\n" +
-//                "\t\t\t\t\t<td align=\"left\">\t<br>\t尊敬的用户，您好：\t<br>\t<br>\t&nbsp;&nbsp;&nbsp;&nbsp;您的个人信息已准备完成，请下载附件。            \n" +
+//                "\t\t\t\t\t<td align=\"left\">尊敬的用户，您好：\t<br><br>&nbsp;&nbsp;&nbsp;&nbsp;请下载附件。            \n" +
 //                "\t\t\t\t\t</td>\t\n" +
 //                "\t\t\t\t</tr> \n" +
 //                "\t\t\t</table> \n" +
-//                "\t\t</center> \n" +
 //                "\t</body> \n" +
 //                "\n" +
 //                "</html>";
-//        JavaMailWithAttachment se = new JavaMailWithAttachment(true);
-//        File affix = new File("d:\\tmp\\text.txt");
-//        se.doSendHtmlEmail("test", sendContent, "shibo.zhong@qunar.com", affix);
-////        se.doSendMulitiPartEmail("test", sendContent, "shibo.zhong@qunar.com", affix);
+//        emailMessage.setAttachFile(FileUtil.contentToFile(fileContent, "测试prepared.txt"));
+//        emailMessage.setEmailTo("438208265@qq.com");
+//        emailMessage.setEmailSubJect("test");
+//        emailMessage.setEmailContent(msgHtml);
+////        emailMessage.setType(19);
+//        se.sendEmail(emailMessage);
 //    }
+
+    public static void main(String[] args) {
+        String sendContent = "<html>\n" +
+                "\t<head><meta http-equiv=Content-Type content=text/html; charset=utf-8></head>\n" +
+                "\t<body bgcolor=\"#ffffff\" topmargin=\"0\" rightmargin=\"0\" bottommargin=\"0\" leftmargin=\"0\"> \n" +
+                "\t\t<center> \n" +
+                "\t\t\t<table width=\"580\" style=\"font-size:12px;\">\t\n" +
+                "\t\t\t\t<tr>\t\n" +
+                "\t\t\t\t\t<td align=\"left\">\t<br>\t尊敬的用户，您好：\t<br>\t<br>\t&nbsp;&nbsp;&nbsp;&nbsp;您的个人信息已准备完成，请下载附件。            \n" +
+                "\t\t\t\t\t</td>\t\n" +
+                "\t\t\t\t</tr> \n" +
+                "\t\t\t</table> \n" +
+                "\t\t</center> \n" +
+                "\t</body> \n" +
+                "\n" +
+                "</html>";
+        JavaMailWithAttachment se = new JavaMailWithAttachment(true);
+        File affix = new File("d:\\tmp\\text.txt");
+//        se.doSendHtmlEmail("test", sendContent, "shibo.zhong@qunar.com", affix);
+        se.doSendMulitiPartEmail("test", sendContent, "shibo.zhong@qunar.com", affix);
+    }
 }
 
