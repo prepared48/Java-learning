@@ -17,5 +17,7 @@ public class TestAsList {
 		List<String> strings = Arrays.asList(headers);
 		System.out.println(strings.size());
 
+		System.out.println(strings.contains(null));
+
 	}
 }
