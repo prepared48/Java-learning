@@ -12,9 +12,17 @@ import java.util.Map;
 public class TestHashMap {
 
     public static void main(String[] args) {
-        Map<Integer, Integer> map = new HashMap<>();
-        map.put(1, 1);
-        System.out.println(map.get(1L));
+        Map<String, String> map = new HashMap<>();
+        map.put("key", "value");
+        map.put("key2", "value2");
+        map.put("key3", "value4");
+        StringBuffer sb = new StringBuffer();
+        for(String key : map.keySet()) {
+            sb.append(key).append("=").append(map.get(key)).append("&");
+        }
+        System.out.println(sb.toString().substring(0, sb.toString().length() - 1));
+//        map.put(1, 1);
+//        System.out.println(map.get(1L));
 //        System.out.println(map.get(1));
 
 //        System.out.println(hash(1));

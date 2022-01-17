@@ -19,12 +19,15 @@ public class OrderHashMap {
         test.put("d", "dd");
         test.put("zz", "zzz");
         test.put("cc", "ccc");
-        Iterator<Map.Entry<String, String>> iterator = test.entrySet().iterator();
+        System.out.println(test.keySet());
+        System.out.println(test.values());
 
-        while (iterator.hasNext()) {
-            Map.Entry<String, String> next = iterator.next();
-            System.out.println(next.getKey() + ": " + next.getValue());
-        }
+//        Iterator<Map.Entry<String, String>> iterator = test.entrySet().iterator();
+//
+//        while (iterator.hasNext()) {
+//            Map.Entry<String, String> next = iterator.next();
+//            System.out.println(next.getKey() + ": " + next.getValue());
+//        }
 
     }
 }
