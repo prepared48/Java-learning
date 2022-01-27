@@ -12,15 +12,19 @@ import java.util.Map;
 public class TestHashMap {
 
     public static void main(String[] args) {
-        Map<String, String> map = new HashMap<>();
-        map.put("key", "value");
-        map.put("key2", "value2");
-        map.put("key3", "value4");
-        StringBuffer sb = new StringBuffer();
-        for(String key : map.keySet()) {
-            sb.append(key).append("=").append(map.get(key)).append("&");
-        }
-        System.out.println(sb.toString().substring(0, sb.toString().length() - 1));
+        String res = "{\"key\":\"value\"}";
+        Map<String, String> map = (HashMap<String, String>) null;
+        System.out.println(map);
+        System.out.println(map.size());
+//        Map<String, String> map = new HashMap<>();
+//        map.put("key", "value");
+//        map.put("key2", "value2");
+//        map.put("key3", "value4");
+//        StringBuffer sb = new StringBuffer();
+//        for(String key : map.keySet()) {
+//            sb.append(key).append("=").append(map.get(key)).append("&");
+//        }
+//        System.out.println(sb.toString().substring(0, sb.toString().length() - 1));
 //        map.put(1, 1);
 //        System.out.println(map.get(1L));
 //        System.out.println(map.get(1));
