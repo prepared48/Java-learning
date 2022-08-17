@@ -14,14 +14,15 @@ import java.util.GregorianCalendar;
  */
 public class ParserTest {
 	public static void main(String[] args) {
-//		testParse1();
-//		testParse2();
-//		testParse3();
-//		testParse4();
-//		testParse5();
-		testParse6();
-		testParse7();
-		testParse8();
+////		testParse1();
+////		testParse2();
+////		testParse3();
+////		testParse4();
+////		testParse5();
+//		testParse6();
+//		testParse7();
+//		testParse8();
+		testParse9();
 	}
 
 	public static void testParse1() {
@@ -126,6 +127,22 @@ public class ParserTest {
 		// b will be false
 		Boolean b = simple.booleanList.get(0);
 		System.out.println("result.b == >" + b);
+	}
+
+
+	public static void testParse9() {
+		// Create and set a calendar
+		GregorianCalendar c = new GregorianCalendar();
+		c.set(1856, 7, 9);
+
+//  The constructor arguments are name, birthday, and nationality.
+		TestCity tesla = new TestCity("Nikola Tesla", "上海");
+
+		ExpressionParser parser = new SpelExpressionParser();
+		Expression exp = parser.parseExpression("name=='Nikola Tesla' and (#jumpCity=='北京' or #jumpCity=='上海')");
+
+		Boolean name = (Boolean) exp.getValue(tesla);
+		System.out.println("result ==> " + name); // 返回 true
 	}
 
 }
