@@ -8,17 +8,15 @@ import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
-import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * @Author: zhongshibo
  * @Date: 2022/8/16 16:20
  */
 @Slf4j
-public class TestReactorOrder {
+public class TestReactorOrder2 {
 
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
@@ -32,24 +30,22 @@ public class TestReactorOrder {
 
 		Flux<Mono> monoFlux = Flux.fromIterable(serviceIList)
 				.publishOn(Schedulers.parallel())
-				.map(service -> {
-					return service.request();
+				.flatMap(service -> {
+					return service.request().map(user -> {
+								TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
+								if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
+									return testUser;
+								}
+								throw new RuntimeException("错误数据");
+							})
+							.onErrorContinue((err, i) -> {
+								log.info("onErrorContinue={}", i);
+							});
 				});
-		Flux flux = monoFlux.flatMap(mono -> {
-			return mono.map(user -> {
-						TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
-						if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
-							return testUser;
-						}
-						throw new RuntimeException("错误数据");
-					})
-					.onErrorContinue((err, i) -> {
-						log.info("onErrorContinue={}", i);
-					});
-		});
-		Mono mono = flux.elementAt(0);
+		Mono mono = monoFlux.elementAt(0);
 //		Object blockFirst = flux.blockFirst();
 		Object block = mono.block();
 		System.out.println(block + "blockFirst 执行耗时ms：" + (System.currentTimeMillis() - startTime));
+
 	}
 }
