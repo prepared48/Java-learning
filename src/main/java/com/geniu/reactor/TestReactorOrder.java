@@ -30,12 +30,12 @@ public class TestReactorOrder {
 		serviceIList.add(testServiceImpl3);
 		serviceIList.add(testServiceImpl1);
 
-		Flux<Mono> monoFlux = Flux.fromIterable(serviceIList)
+		Flux<Mono<TestUser>> monoFlux = Flux.fromIterable(serviceIList)
 				.publishOn(Schedulers.parallel())
 				.map(service -> {
 					return service.request();
 				});
-		Flux flux = monoFlux.flatMap(mono -> {
+		Flux flux = monoFlux.flatMapSequential(mono -> {
 			return mono.map(user -> {
 						TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
 						if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
