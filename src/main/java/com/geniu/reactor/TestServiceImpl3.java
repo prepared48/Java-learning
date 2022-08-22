@@ -17,6 +17,6 @@ public class TestServiceImpl3 implements TestServiceI{
 		} catch (InterruptedException e) {
 			throw new RuntimeException(e);
 		}
-		return Mono.just(new TestUser(""));
+		return Mono.just(new TestUser("name3"));
 	}
 }
