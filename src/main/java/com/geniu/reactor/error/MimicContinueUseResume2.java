@@ -6,6 +6,17 @@ import reactor.core.publisher.Mono;
 
 /**
  * 使用onErrorResume()和下游的onErrorContinue()模拟onErrorContinue()
+ * 1、默认 打印 onErrorResume
+ * 2、去掉 onErrorStop() 打印 onErrorContinue=
+ * 3、去掉 onErrorContinue 打印 onErrorResume
+ *
+ * input=1
+ * input=2
+ * onErrorResume
+ * input=3
+ * input=4
+ * input=5
+ * sum=26
  *
  * @Author: zhongshibo
  * @Date: 2022/8/22 20:10
@@ -23,11 +34,11 @@ public class MimicContinueUseResume2 {
 							System.out.println("onErrorResume");
 							return Mono.empty();
 						})
-						.onErrorStop()
+//						.onErrorStop()
 				)
-				.onErrorContinue((err, i) -> {
-					log.info("onErrorContinue={}", i);
-				})
+//				.onErrorContinue((err, i) -> {
+//					log.info("onErrorContinue={}", i);
+//				})
 				.reduce((i, j) -> i + j)
 				.doOnNext(i -> System.out.println("sum=" + i))
 				.block();

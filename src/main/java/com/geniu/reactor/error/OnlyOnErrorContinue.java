@@ -4,6 +4,14 @@ import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Flux;
 
 /**
+ * input=1
+ * input=2
+ * 21:27:55.300 [main] INFO com.geniu.reactor.error.OnlyOnErrorContinue - onErrorContinue=2
+ * input=3
+ * input=4
+ * input=5
+ * sum=26
+ *
  * @Author: zhongshibo
  * @Date: 2022/8/22 20:08
  */

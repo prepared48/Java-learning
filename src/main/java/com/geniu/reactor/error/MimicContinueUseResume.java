@@ -6,6 +6,13 @@ import reactor.core.publisher.Mono;
 
 /**
  * onErrorResume 模拟 onErrorContinue
+ * input=1
+ * input=2
+ * onErrorResume
+ * input=3
+ * input=4
+ * input=5
+ * sum=26
  *
  * @Author: zhongshibo
  * @Date: 2022/8/22 20:10
