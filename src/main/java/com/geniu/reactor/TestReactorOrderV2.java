@@ -11,23 +11,23 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * 被调用服务 使用 CompletableFuture，结果使用时间是阻塞最大的那个服务的时间
+ * 调用服务内 使用 fromSupplier，结果 时间是多个服务之和
  *
  * @Author: zhongshibo
  * @Date: 2022/8/16 16:20
  */
 @Slf4j
-public class TestReactorOrder {
+public class TestReactorOrderV2 {
 
 	public static void main(String[] args) {
 		long startTime = System.currentTimeMillis();
-		TestServiceI testServiceImpl1 = new TestServiceImpl1();
-		TestServiceI testServiceImpl2 = new TestServiceImpl2();
-		TestServiceI testServiceImpl3 = new TestServiceImpl3();
+		TestServiceI testServiceImpl4 = new TestServiceImpl4();
+		TestServiceI testServiceImpl5 = new TestServiceImpl5();
+		TestServiceI testServiceImpl6 = new TestServiceImpl6();
 		List<TestServiceI> serviceIList = new ArrayList<>();
-		serviceIList.add(testServiceImpl2);
-		serviceIList.add(testServiceImpl3);
-		serviceIList.add(testServiceImpl1);
+		serviceIList.add(testServiceImpl4);
+		serviceIList.add(testServiceImpl5);
+		serviceIList.add(testServiceImpl6);
 
 		Flux<Mono<TestUser>> monoFlux = Flux.fromIterable(serviceIList)
 				.map(service -> {
@@ -39,14 +39,13 @@ public class TestReactorOrder {
 						if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
 							return testUser;
 						}
-						throw new RuntimeException("错误数据");
+						return null;
 					})
 					.onErrorContinue((err, i) -> {
 						log.info("onErrorContinue={}", i);
 					});
 		});
-		Mono mono = flux.elementAt(0);
-//		Object blockFirst = flux.blockFirst();
+		Mono mono = flux.elementAt(0, Mono.just("default"));
 		Object block = mono.block();
 		System.out.println(block + "blockFirst 执行耗时ms：" + (System.currentTimeMillis() - startTime));
 	}

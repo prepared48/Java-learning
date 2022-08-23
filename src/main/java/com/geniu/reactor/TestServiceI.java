@@ -7,6 +7,5 @@ import reactor.core.publisher.Mono;
  * @Date: 2022/8/16 16:13
  */
 public interface TestServiceI {
-
 	Mono request();
 }

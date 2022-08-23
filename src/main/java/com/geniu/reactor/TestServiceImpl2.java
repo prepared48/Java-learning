@@ -3,6 +3,8 @@ package com.geniu.reactor;
 import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;
 
+import java.util.concurrent.CompletableFuture;
+
 /**
  * @Author: zhongshibo
  * @Date: 2022/8/16 16:13
@@ -11,12 +13,19 @@ import reactor.core.publisher.Mono;
 public class TestServiceImpl2 implements TestServiceI{
 	@Override
 	public Mono request() {
-		log.info("execute.test.service2 = ", Thread.currentThread().getName());
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			throw new RuntimeException(e);
-		}
-		return Mono.just(new TestUser(""));
+		log.info("execute.test.service2");
+		CompletableFuture<String> uCompletableFuture = CompletableFuture.supplyAsync(() -> {
+			try {
+				System.out.println("service2.threadName=" + Thread.currentThread().getName());
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				throw new RuntimeException(e);
+			}
+			return "";
+		});
+
+		return Mono.fromFuture(uCompletableFuture).map(name -> {
+			return new TestUser(name);
+		});
 	}
 }
