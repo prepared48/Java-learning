@@ -22,10 +22,10 @@ public class TestServiceImpl4 implements TestServiceI {
 					} catch (InterruptedException e) {
 						throw new RuntimeException(e);
 					}
-					return "";
+					return "name4";
 				})
 				//增加subscribeOn
-				.subscribeOn(Schedulers.boundedElastic())
+				.publishOn(Schedulers.boundedElastic())
 				.map(name -> {
 					return new TestUser(name);
 				});

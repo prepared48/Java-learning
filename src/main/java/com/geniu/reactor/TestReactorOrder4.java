@@ -32,7 +32,7 @@ public class TestReactorOrder4 {
 
 		Flux<Mono> monoFlux = Flux.fromIterable(serviceIList)
 				.publishOn(Schedulers.parallel())
-				.flatMap(service -> {
+				.flatMapSequential(service -> {
 					return service.request().map(user -> {
 								TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
 								return Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName()) ? testUser : null;

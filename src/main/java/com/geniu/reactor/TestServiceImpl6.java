@@ -22,7 +22,7 @@ public class TestServiceImpl6 implements TestServiceI {
 					}
 					return "name6";
 				})
-				.subscribeOn(Schedulers.boundedElastic())
+				.publishOn(Schedulers.boundedElastic())
 				.map(name -> {
 					return new TestUser(name);
 				});

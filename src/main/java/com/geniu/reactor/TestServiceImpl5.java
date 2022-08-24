@@ -4,6 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import reactor.core.publisher.Mono;
 import reactor.core.scheduler.Schedulers;
 
+import java.time.Duration;
+
 /**
  * @Author: zhongshibo
  * @Date: 2022/8/16 16:13
@@ -16,15 +18,17 @@ public class TestServiceImpl5 implements TestServiceI {
 		return Mono.fromSupplier(() -> {
 					try {
 						System.out.println("service5.threadName=" + Thread.currentThread().getName());
-						Thread.sleep(1000);
+						Thread.sleep(2000);
 					} catch (InterruptedException e) {
 						throw new RuntimeException(e);
 					}
 					return "";
 				})
-				.subscribeOn(Schedulers.boundedElastic())
+				.timeout(Duration.ofSeconds(1))
+				.publishOn(Schedulers.boundedElastic())
 				.map(name -> {
 					return new TestUser(name);
-				});
+				})
+				.onErrorReturn(new TestUser());
 	}
 }

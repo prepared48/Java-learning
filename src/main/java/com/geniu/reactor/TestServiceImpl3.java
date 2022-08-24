@@ -21,7 +21,7 @@ public class TestServiceImpl3 implements TestServiceI{
 			} catch (InterruptedException e) {
 				throw new RuntimeException(e);
 			}
-			return "";
+			return "name3";
 		});
 
 		return Mono.fromFuture(uCompletableFuture).map(name -> {
