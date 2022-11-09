@@ -5,6 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
+import reactor.core.scheduler.Schedulers;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -29,11 +30,11 @@ public class TestReactorOrderV2 {
 		serviceIList.add(testServiceImpl5);
 		serviceIList.add(testServiceImpl6);
 
-		Flux<Mono<TestUser>> monoFlux = Flux.fromIterable(serviceIList)
+		Flux flux = Flux.fromIterable(serviceIList)
+
 				.map(service -> {
 					return service.request();
-				});
-		Flux flux = monoFlux.flatMapSequential(mono -> {
+				}).flatMapSequential(mono -> {
 			return mono.map(user -> {
 						TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
 						if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
@@ -41,6 +42,7 @@ public class TestReactorOrderV2 {
 						}
 						return null;
 					})
+					.publishOn(Schedulers.boundedElastic())
 					.onErrorContinue((err, i) -> {
 						log.info("onErrorContinue={}", i);
 					});

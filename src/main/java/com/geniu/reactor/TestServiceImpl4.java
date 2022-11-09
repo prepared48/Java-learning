@@ -14,20 +14,29 @@ import java.util.concurrent.CompletableFuture;
 public class TestServiceImpl4 implements TestServiceI {
 	@Override
 	public Mono request() {
+		long startTime = System.currentTimeMillis();
 		log.info("execute.test.service4");
 		return Mono.fromSupplier(() -> {
 					try {
 						System.out.println("service4.threadName=" + Thread.currentThread().getName());
-						Thread.sleep(500);
+						Thread.sleep(5000);
 					} catch (InterruptedException e) {
 						throw new RuntimeException(e);
+					}catch (Exception e) {
+						log.error("service4.error", e);
 					}
-					return "name4";
+					return "";
 				})
 				//增加subscribeOn
-				.publishOn(Schedulers.boundedElastic())
+//				.subscribeOn(Schedulers.boundedElastic())
 				.map(name -> {
 					return new TestUser(name);
+				})
+				.doOnSuccess(e -> {
+					log.info("service4.doOnSuccess.time: {} ms ", (System.currentTimeMillis() - startTime));
+				})
+				.doFinally(e -> {
+					log.info("service4.doFinally.time: {} ms ", (System.currentTimeMillis() - startTime));
 				});
 	}
 }

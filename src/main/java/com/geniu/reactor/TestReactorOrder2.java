@@ -29,8 +29,12 @@ public class TestReactorOrder2 {
 		serviceIList.add(testServiceImpl1);
 
 		Flux<Mono> monoFlux = Flux.fromIterable(serviceIList)
-				.publishOn(Schedulers.parallel())
-				.flatMap(service -> {
+//				.subscribeOn(Schedulers.parallel())
+				.flatMapSequential(service -> {
+					if(service instanceof TestServiceImpl2) {
+						service = null;
+						return Mono.empty();
+					}
 					return service.request().map(user -> {
 								TestUser testUser = JsonUtil.parseJson(JsonUtil.toJson(user), TestUser.class);
 								if (Objects.nonNull(testUser) && StringUtils.isNotBlank(testUser.getName())) {
@@ -38,9 +42,15 @@ public class TestReactorOrder2 {
 								}
 								throw new RuntimeException("错误数据");
 							})
+							.doOnError(e-> {
+								log.error("error, reactorOrder2", e);
+							})
 							.onErrorContinue((err, i) -> {
-								log.info("onErrorContinue={}", i);
+								log.info("onErrorContinue111={}", i);
 							});
+				})
+				.onErrorContinue((err, i) -> {
+					log.info("onErrorContinue222={}", i);
 				});
 		Mono mono = monoFlux.elementAt(0);
 //		Object blockFirst = flux.blockFirst();

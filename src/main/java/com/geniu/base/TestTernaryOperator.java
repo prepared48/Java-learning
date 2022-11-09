@@ -10,8 +10,8 @@ import java.util.Map;
 public class TestTernaryOperator {
 
 	public static void main(String[] args) {
-		Map<String, Boolean> map = new HashMap<String, Boolean>();
+		Map<String, BooleanTest> map = new HashMap<String, BooleanTest>();
 		System.out.println(map != null);
-		Boolean b = (map != null ? map.get("test") : false);
+//		BooleanTest b = (map != null ? map.get("test") : false);
 	}
 }
