@@ -42,7 +42,7 @@ public class TestReactorOrderV2 {
 						}
 						return null;
 					})
-					.publishOn(Schedulers.boundedElastic())
+					.subscribeOn(Schedulers.boundedElastic())
 					.onErrorContinue((err, i) -> {
 						log.info("onErrorContinue={}", i);
 					});
