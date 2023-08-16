@@ -14,7 +14,8 @@ public class FlatMapSerial {
 		long start = System.currentTimeMillis();
 
 		Mono<String> invoke1 = Invoker1.invoke1();
-		Mono<String> result = invoke1.flatMap(p -> {
+		Mono<String> result = invoke1
+				.flatMap(p -> {
 					return Invoker2.invoke2();
 				})
 				.map(s -> {

@@ -2,6 +2,7 @@ package com.geniu.reactor;
 
 import org.reactivestreams.Publisher;
 import reactor.core.publisher.Flux;
+import reactor.core.publisher.Mono;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +17,27 @@ import java.util.function.Function;
 public class TestReactorFlatMap {
 
 	public static void main(String[] args) {
-		test2();
+		Mono<String> mono1 = new TestServiceImpl10().request();
+		Mono<String> mono2 = new TestServiceImpl11().request();
+
+
+		Mono<String> result = Mono.zip(mono1, mono2)
+				.map(tuple -> {
+					String result1 = tuple.getT1(); // 获取 mono1 的结果
+					String result2 = tuple.getT2(); // 获取 mono2 的结果（如果 mono2 没有返回，该变量为 null）
+					if (result2 != null) {
+						// 如果 mono2 有返回结果，则进行处理
+//						System.out.println("Result 1: " + result1);
+//						System.out.println("Result 2: " + result2);
+						return result1 + result2;
+					} else {
+						// 如果 mono2 没有返回结果，则直接返回 mono1 的结果
+						return result1;
+					}
+				})
+				.switchIfEmpty(mono1);
+
+		System.out.println(result.block());
 	}
 
 	/**

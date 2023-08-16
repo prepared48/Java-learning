@@ -21,18 +21,11 @@ public class TestGuavaBloomFilter {
 				10000,
 				0.01);
 
-		IntStream.range(0, 100_000).forEach(filter::put);
+		IntStream.range(0, 10000).forEach(filter::put);
 
 
-		System.out.println(filter.mightContain(10));
-		System.out.println(filter.mightContain(11));
-		System.out.println(filter.mightContain(12));
-		System.out.println(filter.mightContain(13));
-		System.out.println(filter.mightContain(14));
-		System.out.println(filter.mightContain(21));
-		System.out.println(filter.mightContain(22));
-		System.out.println(filter.mightContain(23));
-		System.out.println(filter.mightContain(24));
-		System.out.println(filter.mightContain(25));
+		for(int i = 0; i < 10000; i++) {
+			System.out.println(filter.mightContain(i));
+		}
 	}
 }
